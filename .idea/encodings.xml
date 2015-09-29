@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/public/css_styles/person.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/public/index.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/public/jscript/action.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/system/class/class.expectant.php" charset="UTF-8" />
+  </component>
+</project>

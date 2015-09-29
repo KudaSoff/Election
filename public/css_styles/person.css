@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0 auto;
+}
+
+#info {
+    width: 1024px;
+}
+
+.person {
+    clear: both;
+}
+
+.person_full_name {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 800;
+    font-family: 'Times New Roman';
+    font-style: italic;
+    color: rgb(100, 0, 0);
+    border-bottom: 2px solid rgb(120, 0, 0);
+    margin-bottom: 5px;
+}
+
+.person img {
+    float: left;
+}
+
+.person_portrait {
+    width: 200px;
+    float: left;
+    margin-bottom: 5px;
+}
+
+.person_data {
+    list-style: none;
+    font-style: normal;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Times New Roman';
+    color: rgb(0, 0, 20);
+    position: relative;
+    top: 10px;
+    float: left;
+    margin-right: 20px;
+    width: 250px;
+}
+
+.person_data .text {
+    padding-left: 20px;
+    color: rgb(150, 10, 10);
+    font-style: italic;
+    margin: 8px 0px 0px 0px;
+}
+
+/**********************************************************/
+/***Обработка стилей для кликабельной строки "Биография"***/
+/**********************************************************/
+.click {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 700;
+    font-family: serif;
+    color: rgb(200, 20, 20);
+    text-align: right;
+    float: left;
+    width: 550px;
+}
+
+.click:hover {
+    cursor: pointer;
+    font-weight: 900;
+    text-decoration: underline;
+    text-shadow: 0 0 10px rgb(0, 0, 0);
+}
+
+.biography {
+    float: left;
+    font-style: italic;
+    font-size: 15px;
+    color: rgb(0, 0, 30);
+    width: 550px;
+}
