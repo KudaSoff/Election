@@ -1,0 +1,10 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+header {
+    width: 1024px;
+    height: 70px;
+    background: rgba(100, 50, 100, 0.5);
+}

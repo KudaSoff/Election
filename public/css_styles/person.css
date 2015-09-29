@@ -19,7 +19,9 @@
     font-style: italic;
     color: rgb(100, 0, 0);
     border-bottom: 2px solid rgb(120, 0, 0);
+    border-top: 2px solid rgb(120, 0, 0);
     margin-bottom: 5px;
+    background: rgba(50, 100, 50, 0.5);
 }
 
 .person img {
@@ -29,7 +31,7 @@
 .person_portrait {
     width: 200px;
     float: left;
-    margin-bottom: 5px;
+    margin: 0px 0px 30px 5px;
 }
 
 .person_data {
@@ -64,14 +66,14 @@
     color: rgb(200, 20, 20);
     text-align: right;
     float: left;
-    width: 550px;
+    width: 545px;
 }
 
 .click:hover {
     cursor: pointer;
     font-weight: 900;
     text-decoration: underline;
-    text-shadow: 0 0 10px rgb(0, 0, 0);
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
 
 .biography {
@@ -79,5 +81,6 @@
     font-style: italic;
     font-size: 15px;
     color: rgb(0, 0, 30);
-    width: 550px;
+    width: 545px;
+    display: none;
 }

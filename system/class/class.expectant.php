@@ -34,9 +34,9 @@
          */
         public function viewPerson($person) {
             echo '<section class="person">';
-                echo '<header class="person_full_name">' .
+                echo '<div class="person_full_name">' .
                             $person['first_name'] . ' ' . $person['second_name'] . ' ' . $person['last_name'] .
-                     '</header>';
+                     '</div>';
                 echo '<div class="person_portrait">';
                     echo '<img src="' . $person['portrait'] . '" height="200px"' . ' />';
                 echo '</div>';

@@ -10,6 +10,7 @@
     <title>Выборы президента Республики Беларусь - 2015</title>
 
     <link href="css_styles/person.css" type="text/css" rel="stylesheet" />
+    <link href="css_styles/header.css" type="text/css" rel="stylesheet" />
 
     <script src="http://google.com/jsapi" type="text/javascript"></script>
     <script type="text/javascript">
@@ -24,7 +25,8 @@
 <body>
 
     <header>
-
+        <div class="slogan"></div>
+        <menu></menu>
     </header>
 
     <div id="info">
